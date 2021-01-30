@@ -12,12 +12,17 @@ const LandingPage = () => {
           You can update us with your post-vaccine symptons, read other reviews
           and explore our FAQ
         </p>
-        <button className="landing-button-blue">Write A Review</button>
-        <button className="landing-button-blue">Write A Review</button>
-        <button className="landing-button-blue">Write A Review</button>
+
+        <LandingButton color="btn-blue">Write A Review</LandingButton>
+        <LandingButton color="btn-brown">Browse Reviews</LandingButton>
+        <LandingButton color="btn-green">FAQs</LandingButton>
       </div>
     </FullPageContainer>
   );
 };
 
 export default LandingPage;
+
+const LandingButton = ({ children, color }) => (
+  <button className={color}>{children}</button>
+);

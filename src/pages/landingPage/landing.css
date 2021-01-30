@@ -19,12 +19,50 @@
     display: flex;
     width:100%;
     height:100%;
-    background-color:  #fdfdfd;
+    background-color:  #fffdfd;
     padding:50px 60px;
     flex-direction: column;
+    position: relative;
 
 }
 
 .landing--panels__right button{
-    margin:10px 0;
+    margin:10px auto;
+    border-radius: 20px;
+    padding: 5px 24px;
+    width: 80%;
+    color:white;
+}
+
+.landing--panels__right h1{
+    color: #B15239;
+    font-weight: 800;
+    font-size: 50px;
+   
+
+}
+
+.btn-blue:active{
+    background-color: #0e2036;
+}
+
+.btn-blue{
+    background-color: #345276;
+}
+
+
+.btn-brown{
+    background-color:  #A37846;
+}
+.btn-brown:active{
+    background-color:  #70522f;
+}
+
+.btn-green{
+    background-color: #4A5E49;
+}
+
+
+.btn-green:active{
+    background-color: #2f3b2e;
 }
